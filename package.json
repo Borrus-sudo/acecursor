@@ -14,8 +14,52 @@
     "contributes": {
         "commands": [
             {
-                "command": "acecursor.leftparenthesis",
-                "title": "Hello World"
+                "command": "acecursor.JumpToOpeningBraceUp",
+                "title": "Cursor: Jump To { UP"
+            },
+            {
+                "command": "acecursor.JumpToOpeningBraceDown",
+                "title": "Cursor: Jump To { DOWN"
+            },
+            {
+                "command": "acecursor.JumpToOpeningBrace",
+                "title": "Cursor: Jump To CLOSEST { "
+            },
+            {
+                "command": "acecursor.JumpToClosingBraceUp",
+                "title": "Cursor: Jump To } UP"
+            },
+            {
+                "command": "acecursor.JumpToClosingBraceDown",
+                "title": "Cursor: Jump To } Down"
+            },
+            {
+                "command": "acecursor.JumpToClosingBrace",
+                "title": "Cursor: Jump To CLOSEST }"
+            },
+            {
+                "command": "acecursor.JumpToOpeningParenthesisUp",
+                "title": "Cursor: Jump To ( UP"
+            },
+            {
+                "command": "acecursor.JumpToOpeningParenthesisDown",
+                "title": "Cursor: Jump To ( DOWN"
+            },
+            {
+                "command": "acecursor.JumpToOpeningParenthesis",
+                "title": "Cursor: Jump To CLOSEST ("
+            },
+            {
+                "command": "acecursor.JumpToClosingParenthesisUp",
+                "title": "Cursor: Jump To ) UP"
+            },
+            {
+                "command": "acecursor.JumpToClosingParenthesisDown",
+                "title": "Cursor: Jump To ) Down"
+            },
+            {
+                "command": "acecursor.JumpToClosingParenthesis",
+                "title": "Cursor: Jump To CLOSEST )"
             }
         ]
     },
