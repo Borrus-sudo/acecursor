@@ -14,52 +14,70 @@
     "contributes": {
         "commands": [
             {
-                "command": "acecursor.JumpToOpeningBraceUp",
-                "title": "Cursor: Jump To { UP"
+                "command": "acecursor.JumpToBraceUp",
+                "title": "Cursor: Jumps to the nearest { or } UP"
             },
             {
-                "command": "acecursor.JumpToOpeningBraceDown",
-                "title": "Cursor: Jump To { DOWN"
+                "command": "acecursor.JumpToBraceDown",
+                "title": "Cursor: Jump To { or } DOWN"
+            }
+        ],
+        "keybindings": [
+            {
+                "key": "ctrl+shift+f",
+                "command": "-workbench.action.findInFiles"
             },
             {
-                "command": "acecursor.JumpToOpeningBrace",
-                "title": "Cursor: Jump To CLOSEST { "
+                "key": "ctrl+shift+g",
+                "command": "-workbench.view.scm"
             },
             {
-                "command": "acecursor.JumpToClosingBraceUp",
-                "title": "Cursor: Jump To } UP"
+                "key": "ctrl+shift+h",
+                "command": "-workbench.action.replaceInFiles"
             },
             {
-                "command": "acecursor.JumpToClosingBraceDown",
-                "title": "Cursor: Jump To } Down"
+                "key": "ctrl+shift+j",
+                "command": "-workbench.action.togglePanel"
             },
             {
-                "command": "acecursor.JumpToClosingBrace",
-                "title": "Cursor: Jump To CLOSEST }"
+                "key": "ctrl+shift+k",
+                "command": "-editor.action.deleteLines",
+                "when": "editorTextFocus"
             },
             {
-                "command": "acecursor.JumpToOpeningParenthesisUp",
-                "title": "Cursor: Jump To ( UP"
+                "key": "ctrl+shift+l",
+                "command": "-editor.action.selectHighlights",
+                "when": "editorTextFocus"
             },
             {
-                "command": "acecursor.JumpToOpeningParenthesisDown",
-                "title": "Cursor: Jump To ( DOWN"
+                "command": "acecursor.JumpToBraceUp",
+                "key": "ctrl+shift+f",
+                "when": "editorTextFocus"
             },
             {
-                "command": "acecursor.JumpToOpeningParenthesis",
-                "title": "Cursor: Jump To CLOSEST ("
+                "command": "acecursor.JumpToBraceDown",
+                "key": "ctrl+shift+g",
+                "when": "editorTextFocus"
             },
             {
-                "command": "acecursor.JumpToClosingParenthesisUp",
-                "title": "Cursor: Jump To ) UP"
+                "command": "cursorUp",
+                "key": "ctrl+shift+k",
+                "when": "editorTextFocus"
             },
             {
-                "command": "acecursor.JumpToClosingParenthesisDown",
-                "title": "Cursor: Jump To ) Down"
+                "command": "cursorDown",
+                "key": "ctrl+shift+j",
+                "when": "editorTextFocus"
             },
             {
-                "command": "acecursor.JumpToClosingParenthesis",
-                "title": "Cursor: Jump To CLOSEST )"
+                "command": "cursorLeft",
+                "key": "ctrl+shift+h",
+                "when": "editorTextFocus"
+            },
+            {
+                "command": "cursorRight",
+                "key": "ctrl+shift+l",
+                "when": "editorTextFocus"
             }
         ]
     },
