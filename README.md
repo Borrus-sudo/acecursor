@@ -1,6 +1,6 @@
 # acecursor
 
-You are riding your peak producitivity, smashing your mechanical keyboard at 100 wpm, drafting that blog post you have been putting off for so long. As your observant eyes follow the rapidly moving cursor, your eyes draw their attention towards that un-fortunate typing mistake you made for the hundereth on the previous line. The cursor comes to the sudden halt and as your basal ganglia instructs your fingers to press the ⬆ arrow key, simultaneosly, your amygadala feels a **weird anguish** through your fingers for the extremely un-ergonomic manoeuvre your hands just performed.
+You are riding your peak producitivity, hammering your mechanical keyboard at 100 wpm, drafting that blog post you have been putting off for so long. As your observant eyes follow the rapidly moving cursor, your eyes draw their attention towards that un-fortunate typing mistake you made for the hundereth on the previous line. The cursor comes to a sudden halt. Your basal ganglia instructs your fingers to stretch the ⬆ arrow key, simultaneosly, your amygadala feels a **weird anguish** through your fingers for the extremely un-ergonomic manoeuvre your hands just performed.
 
 `acecursor` for the rescue baby! It a lightweight keyboard remapping config built around upon a simple philosophy:
 
