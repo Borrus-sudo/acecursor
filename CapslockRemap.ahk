@@ -35,6 +35,7 @@ CapsLock & s up:: Send("{Shift Up}")
 ; Much more ergonomic due to home-row placement
 ; ------------------------------------------------------------
 CapsLock & z:: Send("^z")       ; Undo
+CapsLock & y:: Send("^y")       ; Redo
 CapsLock & x:: Send("^x")       ; Cut
 CapsLock & c:: Send("^c")       ; Copy
 CapsLock & v:: Send("^v")       ; Paste
