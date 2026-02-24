@@ -64,7 +64,8 @@ CapsLock & a:: Send("^a")       ; Select all
 CapsLock & w:: Send("^w")       ; Close tab / VSCode file
 CapsLock & d:: Send("^{Left}")  ; Jump word left
 CapsLock & f:: Send("^{Right}") ; Jump word right
-CapsLock & t:: Send("^{Tab}")   ; Rotate tabs (Chrome, etc.)
+CapsLock & r:: Send("^{Tab}")   ; Rotate tabs on Chrome
+CapsLock & t:: Send("^t")       ; Create new tab on chrome
 CapsLock & p:: Send("^+p")      ; Ctrl + Shift + P (VS Code Command Palette)
 
 
